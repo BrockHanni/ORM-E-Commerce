@@ -28,11 +28,21 @@ To submit bug reports, feature requests, or pull requests, please email me at ha
 
 ## Deployment
 
-GITHUB
+Check out the repo here: https://github.com/BrockHanni/Week-13-ORM
+
+Or the deployed link here: https://brockhanni.github.io/Week-13-ORM/
 
 ## Screenshots
 
 Check out the video walkthrough below!
+
+<video src="Develop/images/ORM%20Walkthrough.mp4" controls title="Walkthrough"></video>
+
+![Products](Develop/images/products.jpg)
+
+![Tags](Develop/images/tags.jpg)
+
+![Categories](Develop/images/categories.jpg)
 
 ## Table of Contents
 - [Installation](#installation)
