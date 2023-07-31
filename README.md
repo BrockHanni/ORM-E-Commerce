@@ -1,34 +1,44 @@
-# E-commerce Back End Starter Code
+# ORM Database
 
-## User Story
+Using Object-Relationship Mapping (ORM) this app shows the backend of an ecommerce site, by running our seed files, we can fill our data base with products, and the product tags and categories, visually accessable trough insomnia
 
-AS A manager at an internet retail company
+## Installation
 
-I WANT a back end for my e-commerce website that uses the latest technologies
+First make sure that insomnia is downloaded and up to date, then in the integrated terminal of the develop folder run npm i. After doing so, seed your database by entering into mysql (in the terminal run mysql -uroot -p(whatever your password is)), then run source db/schema.sql, then run quit.
 
-SO THAT my company can compete with other e-commerce companies
+## Usage
 
+After that run npm seed, and then npm start. You can then access the database through insomnia, by entering localhost:3001, and then the get routes provided below. 
 
-## Acceptance Criteria
+localhost:3001/api/products, to see our products.
 
-GIVEN a functional Express.js API
+localhost:3001/api/categories, to see the products in their respective categories.
 
-WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
+localhost:3001/api/tags to see the products under their respective tags.
 
-THEN I am able to connect to a database using Sequelize
+You can then use the post, put, and delete routes to add, update, and delete products, categories, and tags.
 
-WHEN I enter schema and seed commands
+## Test
 
-THEN a development database is created and is seeded with test data
+To test it, simply install the app, open insomnia and follow the routes provided above.
 
-WHEN I enter the command to invoke the application
+## Contributing/Contact
 
-THEN my server is started and the Sequelize models are synced to the MySQL database
+To submit bug reports, feature requests, or pull requests, please email me at hannibr26@gmail.com, or visit my GitHub page: brockhanni(https://github.com/brockhanni)
 
-WHEN I open API GET routes in Insomnia Core for categories, products, or tags
+## Deployment
 
-THEN the data for each of these routes is displayed in a formatted JSON
+GITHUB
 
-WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
+## Screenshots
 
-THEN I am able to successfully create, update, and delete data in my database
+Check out the video walkthrough below!
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Test](#test)
+- [Contributing/Contact](#contributing/Contact)
+- [Deployment](#deployment)
+- [Screenshots](#screenshots)
+- [Table of Contents](#table-of-contents)
