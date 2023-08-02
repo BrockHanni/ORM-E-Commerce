@@ -36,7 +36,7 @@ Or the deployed link here: https://brockhanni.github.io/Week-13-ORM/
 
 Check out the video walkthrough below!
 
-<video src="Develop/images/Walkthrough.mp4" controls title="Title"></video>
+<video src="Develop/images/ORMWalkthru.mp4" controls title="Walkthru"></video>
 
 ![Products](Develop/images/products.jpg)
 
